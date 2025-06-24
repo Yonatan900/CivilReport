@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CivilReport</string>
+    <string name="report_subject">נושא</string>
+    <string name="report_date">תאריך</string>
+    <string name="hint_password">סיסמא</string>
+    <string name="log_in">התחברות</string>
+    <string name="forgot_password">שכחתי סיסמא</string>
+    <string name="logout">התנתקות</string>
+    <string name="report_location">מיקום</string>
+    <string name="client_name">שם לקוח</string>
+    <string name="add_image">צרף</string>
+    <string name="save_report">שמור</string>
+    <string name="cancel">ביטול</string>
+    <string name="username">שם משתמש</string>
+    <string name="delete">"מחק "</string>
+    <string name="export_as_pdf">יצא דוח</string>
+    <string name="add_report">צרף דוח</string>
+    <string name="language_english">אנגלית</string>
+    <string name="language_hebrew">עברית</string>
+</resources>

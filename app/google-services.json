@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "888235024210",
+    "project_id": "civilreport-bcc19",
+    "storage_bucket": "civilreport-bcc19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888235024210:android:fa44afc6e1f0199b7b648b",
+        "android_client_info": {
+          "package_name": "com.example.civilreport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBckFBB6WiCSxqL7GO6Ar6r24NP7esOYvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

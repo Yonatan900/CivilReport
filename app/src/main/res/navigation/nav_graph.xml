@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.example.civilreport.ui.ReportsFragment"
+        android:label="reports_fragment"
+        tools:layout="@layout/reports_fragment">
+        <action
+            android:id="@+id/action_reportsFragment_to_newReportFragment"
+            app:destination="@id/newReportFragment" />
+        <action
+            android:id="@+id/action_reportsFragment_to_reportPreviewFragment"
+            app:destination="@id/ReportPreviewFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.civilreport.ui.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/newReportFragment"
+        android:name="com.example.civilreport.ui.addReport.NewReportFragment"
+        android:label="new_report_fragment"
+        tools:layout="@layout/new_report_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.civilreport.ui.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ReportPreviewFragment"
+        android:name="com.example.civilreport.ui.ReportPreviewFragment"
+        android:label="report_preview_fragment"
+        tools:layout="@layout/report_preview_fragment">
+
+        <argument
+            android:name="reportId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.civilreport.ui.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment">
+        <action
+            android:id="@+id/action_loginFragment_to_reportsFragment"
+            app:destination="@id/reportsFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

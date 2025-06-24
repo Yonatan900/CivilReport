@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CivilReport</string>
+    <string name="reports_frag" translatable="false">Reports</string>
+    <string name="report_subject">Subject</string>
+    <string name="report_date">Date</string>
+    <string name="home_frag" translatable="false">Home</string>
+    <string name="profile_frag" translatable="false">Profile</string>
+    <string name="hint_password">password</string>
+    <string name="app_logo" translatable="false">app_logo</string>
+    <string name="log_in">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="profile_picture" translatable="false">Profile Picture</string>
+    <string name="dark_mode" translatable="false">DarkMode\n</string>
+    <string name="logout">LogOut</string>
+    <string name="report_location">Location\n</string>
+    <string name="client_name">Client Name\n</string>
+    <string name="add_image">Add Image</string>
+    <string name="save_report">Save Report</string>
+    <string name="cancel">Cancel</string>
+    <string name="username">Username</string>
+    <string name="delete">Delete</string>
+    <string name="export_as_pdf">Export as PDF</string>
+    <string name="add_report">Add report</string>
+    <string name="language_english">Eng</string>
+    <string name="language_hebrew">Heb</string>
+    <string name="size_small">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_full">Full page</string>
+</resources>
